@@ -1,7 +1,11 @@
-.body {
+body {
     margin-top: 0px;
     margin-left: 0px; 
     margin-right: 0px;
     height: 100vh;
-    background-image: linear-gradient(to bottom, red, orange);
+    background-image: linear-gradient(to bottom, gray, maroon);
+}
+nav {
+    background-color: white
+    ;
 }
