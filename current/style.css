@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eee; /* Light gray background */
+}
+
+
+.header1 {
+    text-align: center; /* used to center the text in a div*/
+    background-color: maroon; /* Maroon header background */
+    margin: 0; /*removes any margin */
+    padding: 10px 0; /* Increased padding for header */
+}
+
+.header1 h1 {
+    color: white;
+    margin: 0;
+}
+
+
+.navbar {
+    margin: 0;
+    background-color: #333; /* Dark gray navbar background */
+    padding: 10px 0; /* Increased padding for navbar */
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white; /* White color for navbar links */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #555; /* Darker gray background on hover */
+}

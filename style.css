@@ -8,9 +8,9 @@ body {
 
 
 .header1 {
-    text-align: center;
+    text-align: center; /* used to center the text in a div*/
     background-color: maroon; /* Maroon header background */
-    margin: 0;
+    margin: 0; /*removes any margin */
     padding: 10px 0; /* Increased padding for header */
 }
 
